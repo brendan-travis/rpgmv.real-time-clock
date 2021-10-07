@@ -46,6 +46,6 @@ Simply copy the RealTimeClock.js file into your plugins folder.
 - Trigger events every minute, every hour, and every day.
 - Able to change the names of the common events that are triggered.
 
----
+### v1.0.1
 
-Made with ✨
+- Removed console log lines

@@ -1,7 +1,7 @@
 /*:
  * @plugindesc Introduces a real time clock with events automatically fired at
  * specific times.
- * @author Brendan
+ * @author https://github.com/brendan-travis
  *
  * @param MinuteTriggerEvent
  * @desc The name of the common event to fire when the clock ticks up a minute.
@@ -75,8 +75,6 @@
 
     const hours = date.getHours();
     const minutes = date.getMinutes();
-
-    console.log(`${hours}:${minutes}`);
 
     fireTimedEvents(minutes, hours);
 
